@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "oem";
+    src: url('PFDinTextOSCond-Regular.ttf');
+}
+
+@font-face {
+    font-family: "oem";
+    src: url('PFDinTextOSCond-Bold.ttf');
+    font-weight: bold;
+}
+
+body {
+    font-family: "oem";
+    color: #000000;
+    background-color: #ffffff;
+    display: block;
+    margin: 0 auto 0 auto;
+    max-width: 1024px;
+}
+
+div#container {
+    display: flex;
+}
+
+div#leftBox, div#rightBox {
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+h1, h2, h3 {
+    margin-top: 3px;
+    margin-left: 0;
+    margin-bottom: 3px;
+    margin-right: 0;
+}
+
+p {
+    white-space: pre-line;
+}
