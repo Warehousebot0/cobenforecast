@@ -163,7 +163,7 @@ function onSubmit() {
     athletes.sort((athlete1, athlete2) => athlete2.eliminationCount - athlete1.eliminationCount);
     let result = "";
     for (const athlete of athletes) {
-        result += `${athlete.name} (${(athlete.eliminationCount / totalSimulations * 100).toFixed(4)}%)\n`;
+        result += `${athlete.name} (${(athlete.eliminationCount / totalSimulations * 100).toFixed(6)}%)\n`;
     }
 
     const resultsParagraph = document.getElementById("resultsParagraph");
